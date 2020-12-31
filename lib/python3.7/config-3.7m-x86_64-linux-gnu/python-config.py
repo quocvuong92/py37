@@ -1,4 +1,4 @@
-#!/home/partner_trueid_vinid_dev/py37/bin/python3.7m
+#!/tmp/py37/bin/python3.7m
 # -*- python -*-
 
 # Keep this script in sync with python-config.sh.in

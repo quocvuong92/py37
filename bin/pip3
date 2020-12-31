@@ -1,4 +1,4 @@
-#!/home/partner_trueid_vinid_dev/py37/bin/python3.7
+#!/tmp/py37/bin/python3.7
 # -*- coding: utf-8 -*-
 import re
 import sys

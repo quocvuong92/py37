@@ -91,7 +91,7 @@ CONFIGURE_CFLAGS_NODIST= -std=c99 -Wextra -Wno-unused-result -Wno-unused-paramet
 # once Python is installed (bpo-35257)
 CONFIGURE_LDFLAGS_NODIST=
 CONFIGURE_CPPFLAGS=	
-CONFIGURE_LDFLAGS=	-Wl,-rpath=/home/partner_trueid_vinid_dev/py37/lib,--disable-new-dtags
+CONFIGURE_LDFLAGS=	-Wl,-rpath=/tmp/py37/lib,--disable-new-dtags
 # Avoid assigning CFLAGS, LDFLAGS, etc. so users can use them on the
 # command line to append to these values without stomping the pre-set
 # values.
@@ -131,7 +131,7 @@ MULTIARCH=	x86_64-linux-gnu
 MULTIARCH_CPPFLAGS = -DMULTIARCH=\"x86_64-linux-gnu\"
 
 # Install prefix for architecture-independent files
-prefix=		/home/partner_trueid_vinid_dev/py37
+prefix=		/tmp/py37
 
 # Install prefix for architecture-dependent files
 exec_prefix=	${prefix}
@@ -205,7 +205,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 '--prefix=/home/partner_trueid_vinid_dev/py37' '--enable-shared' '--enable-ipv6' 'LDFLAGS=-Wl,-rpath=/home/partner_trueid_vinid_dev/py37/lib,--disable-new-dtags'
+CONFIG_ARGS=	 '--prefix=/tmp/py37' '--enable-shared' '--enable-ipv6' 'LDFLAGS=-Wl,-rpath=/tmp/py37/lib,--disable-new-dtags'
 
 
 # Subdirectories with code

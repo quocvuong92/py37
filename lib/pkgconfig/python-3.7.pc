@@ -1,5 +1,5 @@
 # See: man pkg-config
-prefix=/home/partner_trueid_vinid_dev/py37
+prefix=/tmp/py37
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

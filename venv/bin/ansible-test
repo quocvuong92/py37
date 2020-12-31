@@ -1,4 +1,4 @@
-#!/home/partner_trueid_vinid_dev/py37/venv/bin/python
+#!/tmp/py37/venv/bin/python
 # PYTHON_ARGCOMPLETE_OK
 """Command line entry point for ansible-test."""
 
