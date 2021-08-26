@@ -1,4 +1,4 @@
-#!/tmp/py37/bin/python3.7
+#!/opt/py37/bin/python3.9
 # -*- coding: utf-8 -*-
 import re
 import sys
